@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Svnkit-sample
+Bundle-SymbolicName: svn-sync-agent
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: svnkit-sample
+Bundle-RequiredExecutionEnvironment: JavaSE-12
+Require-Bundle: org.junit,
+ org.junit.jupiter.api
