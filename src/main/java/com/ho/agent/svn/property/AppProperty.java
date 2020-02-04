@@ -1,4 +1,4 @@
-package kr.co.micube.component.property;
+package com.ho.agent.svn.property;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

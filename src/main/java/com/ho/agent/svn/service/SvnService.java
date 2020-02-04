@@ -1,8 +1,8 @@
-package kr.co.micube.component.service;
+package com.ho.agent.svn.service;
 
 import java.io.File;
 
-import kr.co.micube.component.property.AppProperty;
+import com.ho.agent.svn.property.AppProperty;
 
 public abstract class SvnService {
 

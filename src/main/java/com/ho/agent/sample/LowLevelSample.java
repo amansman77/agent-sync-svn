@@ -1,6 +1,6 @@
-package kr.co.micube.sample;
+package com.ho.agent.sample;
 
-import kr.co.micube.sample.api.lowlevel.RepositoryHistorySample;
+import com.ho.agent.sample.api.lowlevel.RepositoryHistorySample;
 
 public class LowLevelSample {
 	

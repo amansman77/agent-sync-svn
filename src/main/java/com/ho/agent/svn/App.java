@@ -1,12 +1,12 @@
-package kr.co.micube.component;
+package com.ho.agent.svn;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import kr.co.micube.component.property.AppProperty;
-import kr.co.micube.component.service.SvnService;
-import kr.co.micube.component.service.impl.SvnClientServiceImpl;
+import com.ho.agent.svn.property.AppProperty;
+import com.ho.agent.svn.service.SvnService;
+import com.ho.agent.svn.service.impl.SvnClientServiceImpl;
 
 public class App {
 

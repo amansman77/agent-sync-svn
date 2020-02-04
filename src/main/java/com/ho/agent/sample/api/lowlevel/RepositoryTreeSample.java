@@ -1,4 +1,4 @@
-package kr.co.micube.sample.api.lowlevel;
+package com.ho.agent.sample.api.lowlevel;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -18,7 +18,7 @@ import org.tmatesoft.svn.core.wc.SVNWCUtil;
 public class RepositoryTreeSample {
 
 	public void printRepositoryTree() {
-		String url = "https://micube-dev-1/svn/Study_CI";
+		String url = "https://ho-dev-1/svn/Study_CI";
 		String name = "id";
 		String password = "password";
         

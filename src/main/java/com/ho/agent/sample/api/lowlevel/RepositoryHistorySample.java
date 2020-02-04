@@ -1,4 +1,4 @@
-package kr.co.micube.sample.api.lowlevel;
+package com.ho.agent.sample.api.lowlevel;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -19,7 +19,7 @@ public class RepositoryHistorySample {
 	public void printRepositoryHistory() {
 		DAVRepositoryFactory.setup();
 
-		String url = "https://micube-dev-1/svn/Study_CI";
+		String url = "https://ho-dev-1/svn/Study_CI";
 		String name = "id";
 		String password = "passwod";
 		long startRevision = 0;

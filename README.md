@@ -10,4 +10,4 @@ SVN서버에서 주기적으로 Revision의 변경을 감지하여 local working
 
 ## Main class
 
-`kr.co.micube.component.App.java`
+`com.ho.agent.svn.App.java`

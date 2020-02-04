@@ -1,4 +1,4 @@
-package kr.co.micube.component.service.impl;
+package com.ho.agent.svn.service.impl;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import org.tmatesoft.svn.core.io.SVNRepository;
 import org.tmatesoft.svn.core.io.SVNRepositoryFactory;
 import org.tmatesoft.svn.core.replicator.SVNRepositoryReplicator;
 
-import kr.co.micube.component.service.SvnService;
+import com.ho.agent.svn.service.SvnService;
 
 public class SvnRepositoryServiceImpl extends SvnService {
 

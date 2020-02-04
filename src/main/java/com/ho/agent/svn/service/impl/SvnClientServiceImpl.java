@@ -1,4 +1,4 @@
-package kr.co.micube.component.service.impl;
+package com.ho.agent.svn.service.impl;
 
 import java.io.File;
 
@@ -13,7 +13,7 @@ import org.tmatesoft.svn.core.wc.SVNRevision;
 import org.tmatesoft.svn.core.wc.SVNStatus;
 import org.tmatesoft.svn.core.wc.SVNWCUtil;
 
-import kr.co.micube.component.service.SvnService;
+import com.ho.agent.svn.service.SvnService;
 
 public class SvnClientServiceImpl extends SvnService {
 

@@ -1,10 +1,11 @@
-package kr.co.micube.component.service;
+package com.ho.agent.svn.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import kr.co.micube.component.service.impl.SvnClientServiceImpl;
+import com.ho.agent.svn.service.SvnService;
+import com.ho.agent.svn.service.impl.SvnClientServiceImpl;
 
 class SvnServiceTest {
 
