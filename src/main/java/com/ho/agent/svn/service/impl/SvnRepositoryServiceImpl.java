@@ -1,17 +1,19 @@
 package com.ho.agent.svn.service.impl;
 
 import java.io.File;
+import java.util.List;
 
 import org.tmatesoft.svn.core.SVNException;
+import org.tmatesoft.svn.core.SVNLogEntry;
 import org.tmatesoft.svn.core.SVNURL;
 import org.tmatesoft.svn.core.internal.io.dav.DAVRepositoryFactory;
 import org.tmatesoft.svn.core.io.SVNRepository;
 import org.tmatesoft.svn.core.io.SVNRepositoryFactory;
 import org.tmatesoft.svn.core.replicator.SVNRepositoryReplicator;
 
-import com.ho.agent.svn.service.SvnService;
+import com.ho.agent.svn.service.RepositoryService;
 
-public class SvnRepositoryServiceImpl extends SvnService {
+public class SvnRepositoryServiceImpl extends RepositoryService {
 
 	private SVNRepository remoteRepository = null;
 	
@@ -26,8 +28,9 @@ public class SvnRepositoryServiceImpl extends SvnService {
 	}
 
 	@Override
-	public void initWorkingDirectory() {
+	public long initWorkingDirectory() {
 		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
@@ -47,7 +50,7 @@ public class SvnRepositoryServiceImpl extends SvnService {
 	}
 
 	@Override
-	public void checkout() {
+	public void checkout(Long revision) {
 		try {
 			SVNURL tgtURL = SVNRepositoryFactory.createLocalRepository(new File(targetPath) , true , false);
 			SVNRepository tgtRepository = SVNRepositoryFactory.create(tgtURL);
@@ -60,6 +63,18 @@ public class SvnRepositoryServiceImpl extends SvnService {
 			throw new RuntimeException("error while replicate repository: " + e.getMessage());
 		}
 		
+	}
+
+	@Override
+	public List<SVNLogEntry> getRevisions(int lineCount) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Long getCheckedRevision() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
