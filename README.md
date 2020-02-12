@@ -6,8 +6,9 @@ SVN서버에서 주기적으로 Revision의 변경을 감지하여 local working
 
 ## 개발 프레임워크
 - IDE : 4.5.0.RELEASE
-- Java : SE-1.8
+- Java : OpenJDK-12.0.1
+- JUnit : Jupiter
 
 ## Main class
 
-`com.ho.agent.svn.App.java`
+`com.ho.agent.svn.App`
